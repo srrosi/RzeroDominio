@@ -40,3 +40,10 @@ lista_final$`Quantidades Vendidas`[2]
 listanova<-unlist(lista_final)
 
 listanova[10]
+
+#Exercício 1
+list(40, matrix(3,2,3), c('Recife','Natal','Salvador'), sd)
+
+#Exercício 2
+m<-list(40, matrix(3,2,3), c('Recife','Natal','Salvador'), sd)
+m[2]

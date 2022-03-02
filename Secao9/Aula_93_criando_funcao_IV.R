@@ -15,12 +15,14 @@ resumo$fornecedores<-c("Camil","Zaeli","Tio João","Danone","Liza")
 str(resumo)  #tipos corretos das variáveis
 resumo
 
-mean(x)
+
+resumo$quant_Abril<-c(130,300,240,145,225)
+resumo$capacidade<-c(460,500,470,390,100)
 
 # Nome, Preço, capacidade
 
 tabela_f <-resumo[,c(1,6)]
-tabela_f$Preço<-c(12,14,23,44,20)
+tabela_f$Preco<-c(12,14,23,44,20)
 
 
 novos_pedidos<-function(nome, tabela_fornecedores){
